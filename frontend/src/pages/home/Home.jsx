@@ -36,31 +36,64 @@ const Home = () => {
 
       {/* Project Management */}
       <section className="mt-16">
-        <div className="flex items-center justify-around p-8 sm:flex-col">
-          <div className="flex flex-col gap-8 sm:items-center sm:text-center">
-            <h3 className="text-[68px] leading-tight md:text-[48px]">
-              Project <br />
-              <span className="text-[#043873]">Management</span>
-            </h3>
-            <p>
-              Images, videos, PDFs and audio files are supported. Create math
-              expressions and <br />
-              diagrams directly from the app. Take photos with mobile app and
-              save them <br />
-              to a note.
-            </p>
-            <div>
-              <button className="flex items-center gap-1 bg-[#4F9CF9] py-4 px-8 text-white rounded-md hover:opacity-[.9] sm:mb-24">
-                Get Started
-                <IoIosArrowRoundForward />
-              </button>
+        <div className="container">
+          <div className="flex items-center justify-around p-8 sm:flex-col">
+            <div className="flex flex-col gap-8 sm:items-center sm:text-center">
+              <h3 className="text-[68px] leading-tight md:text-[48px]">
+                Project <br />
+                <span className="text-[#043873]">Management</span>
+              </h3>
+              <p>
+                Images, videos, PDFs and audio files are supported. Create math
+                expressions and <br />
+                diagrams directly from the app. Take photos with mobile app and
+                save them <br />
+                to a note.
+              </p>
+              <div>
+                <button className="flex items-center gap-1 bg-[#4F9CF9] py-4 px-8 text-white rounded-md hover:opacity-[.9] sm:mb-24">
+                  Get Started
+                  <IoIosArrowRoundForward />
+                </button>
+              </div>
+            </div>
+            <img
+              src="/images/home/Illustration2.png"
+              alt="A picture of people at a construction site"
+              className="md:w-[280px] sm:w-[50%]"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Work Together */}
+      <section className="mt-16">
+        <div className="container">
+          <div className="flex items-center justify-around p-8 xl:gap-6 sm:flex-col-reverse">
+            <img
+              src="/images/home/Work Together Image.png"
+              alt="Work Together Image"
+              className="w-[480px] xl:w-[380px] md:w-[280px] sm:w-[100%]"
+            />
+            <div className="flex flex-col gap-8 sm:items-center sm:text-center">
+              <h3 className="text-[68px] leading-tight md:text-[48px]">
+                Work <span className="text-[#043873]">Together</span>
+              </h3>
+              <p>
+                With whitespace, share your notes with your colleagues and
+                collaborate on them.
+                <br />
+                You can also publish a note to the internet and share the URL
+                with others
+              </p>
+              <div>
+                <button className="flex items-center gap-1 bg-[#4F9CF9] py-4 px-8 text-white rounded-md hover:opacity-[.9] sm:mb-24">
+                  Try it now
+                  <IoIosArrowRoundForward />
+                </button>
+              </div>
             </div>
           </div>
-          <img
-            src="/images/home/Illustration2.png"
-            alt="A picture of people at a construction site"
-            className="sm:w-[50%]"
-          />
         </div>
       </section>
     </>
